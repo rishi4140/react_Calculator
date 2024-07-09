@@ -1,0 +1,73 @@
+.myCalculator {
+  width: 310px;
+  margin: auto;
+  padding: 0px;
+  background-color: #5a5858;
+  font-family: "Orbitron", sans-serif;
+  border-radius: 25px;
+}
+.buttons {
+  display: inline-block;
+  margin: 23px 15px;
+}
+.btn {
+  background: #323232;
+  color: white;
+  padding: 5%;
+  border: 0px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.btn:focus {
+  background: white;
+  color: #323232;
+}
+.btn-calc {
+  background: #ff9500;
+}
+.btn-action {
+  background: #959595;
+  color: #000000;
+}
+
+.btn-0 {
+  background: #323232;
+  color: white;
+  border: 0px;
+  margin: 5px;
+  padding: 5%;
+  width: 130px;
+  border-radius: 30px;
+  height: 60px;
+  font-size: 25px;
+  cursor: pointer;
+  outline: none;
+}
+.btn-0:focus {
+  background: white;
+  color: #323232;
+}
+.result {
+  width: 100%;
+  background: linear-gradient(#5a5858, #202020);
+  height: 75px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 2rem;
+  border-radius: 14px;
+  text-align: right;
+  padding: 25px 0px 0px 0px;
+}
+
+.result p {
+  text-align: right;
+  font-size: 26px;
+  margin-bottom: 4px;
+  padding-top: 14px;
+  padding-right: 10px;
+}
